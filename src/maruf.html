@@ -534,7 +534,7 @@
 
     <!--  -->
 
-    <section class="max-w-300 m-auto py-20">
+    <section class="max-w-300 m-auto px-5 py-20">
         <div class="flex justify-between items-center mb-6">
 
             <h2 class="text-2xl font-semibold">
@@ -547,11 +547,11 @@
 
         <div class="flex flex-col lg:flex-row gap-5">
 
-            <img src="./maruf_image/01.png" alt="" class="">
-            <img src="./maruf_image/02-hover.png" alt="" class="">
-            <img src="./maruf_image/03.png" alt="" class="">
-            <img src="./maruf_image/04.png" alt="" class="">
-            
+            <img src="./maruf_image/01.png" alt="" class="w-[80%]">
+            <img src="./maruf_image/02-hover.png" alt="" class="lg:block hidden">
+            <img src="./maruf_image/03.png" alt="" class="lg:block hidden">
+            <img src="./maruf_image/04.png" alt="" class="lg:block hidden">
+
         </div>
 
 
@@ -565,6 +565,53 @@
         <img src="./maruf_image/map.png" alt="" class="mt-10">
 
 
+    </section>
+
+    <section class="max-w-300 m-auto px-4 mt-10">
+        <div class=" bg-[#02B0C5] rounded-xl p-8 text-white">
+            <div class="grid lg:grid-cols-3 gap-6 items-center">
+
+
+                <div class="lg:col-span-2">
+                    <h2 class="text-3xl font-semibold mb-2">Записаться на приём</h2>
+                    <p class="text-sm text-cyan-100 mb-6">
+                        Оставьте заявку и мы свяжемся с вами в ближайшее время
+                    </p>
+
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <select class="bg-white text-gray-700 rounded-md px-4 py-3">
+                            <option>Выберите направление</option>
+                        </select>
+
+                        <input type="text" placeholder="Ваше имя"
+                            class="rounded-md px-4 py-3 text-gray-700 bg-[white]" />
+
+                        <select class="bg-white text-gray-700 rounded-md px-4 py-3">
+                            <option>Выберите врача</option>
+                        </select>
+
+                        <input type="tel" placeholder="Ваш телефон"
+                            class="rounded-md px-4 py-3 text-gray-700 bg-[white]" />
+                    </div>
+                </div>
+
+
+                <div class="flex flex-col gap-4">
+                    <button class="bg-teal-400 hover:bg-teal-500 text-white font-medium py-3 rounded-md transition">
+                        Оставить заявку
+                    </button>
+
+                    <label class="flex items-start gap-2 text-xs text-cyan-100">
+                        <input type="checkbox" class="mt-1" />
+                        <span>
+                            Отправляя заявку, вы соглашаетесь на нашу
+                            <a href="#" class="underline">политику конфиденциальности</a>
+                        </span>
+                    </label>
+                </div>
+
+            </div>
+        </div>
     </section>
 
 
